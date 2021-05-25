@@ -1,0 +1,184 @@
+body {
+  background-color: #33AFFF;
+}
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+.Titulo{
+  background-color: white;
+  width: 500px;
+  height: 100px;
+  margin-left:700px;
+  margin-top: -890px;
+  border-top-right-radius:80px;
+  border-bottom-left-radius: 80px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+.Titulo:hover{
+  background-color: #FAE114;
+  transform: rotateY(360deg);
+  transition: 3.5s;
+}
+.Tablero{
+  margin-left:40px;
+  margin-top:140px;
+  text-align: center;
+}
+.Profesor{
+  margin-left:1200px;
+  margin-top:150px;
+  text-align: center;
+}
+.Saludo{
+  background-color: #33AFFF;
+  width: 700px;
+  height: 100px;
+  margin-left:600px;
+  margin-top: -690px;
+  border-radius:50px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+.Saludo:hover{
+  background-color: #FAE114;
+  transform: rotate(360deg);
+  transition: 4s;
+}
+.Materia1{
+  background-color: #33AFFF;
+  width: 250px;
+  height: 100px;
+  margin-left:250px;
+  margin-top: -20px;
+  border-radius:20px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+.Materia1:hover{
+  background-color: #FAE114;
+  transform: scale(1.5, 1.5);
+  transition: 4.5s;
+}
+.Materia2{
+  background-color: #33AFFF;
+  width: 250px;
+  height: 100px;
+  margin-left:250px;
+  margin-top: 10px;
+  border-radius:20px;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+.Materia2:hover{
+  background-color: #FAE114;
+  transform: scale(1.5, 1.5);
+  transition: 4.5s;
+}
+.Actividad1{
+
+  width: 620px;
+  height: 380px;
+  margin-left:700px;
+  margin-top: -20px;
+  text-align: center;
+}
+.Actividad01{
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  margin-left:190px;
+  margin-top: -420px;
+  font-family: 'Permanent Marker', cursive;
+  text-align:justify;
+
+}
+.Actividad01:hover{
+  background-color: #FAE114;
+  transition: 4s;
+}
+/*ESTILOS GENERALES*/
+.nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.nav li{
+  background-color;
+  list-style: none;
+  width: 200px;
+  height: 110px;
+  margin-left: 190px;
+  margin-top: -53px;
+  position: relative;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+.nav li ul {
+  position: relative;
+}
+.nav a {
+  background-color;
+  color: Black;
+  display: block;
+  text-decoration: none;
+  transition: .5s;
+  width: 200px;
+  border-radius:80px;
+}
+.nav a:hover {
+  background-color:  #33AFFF;
+}
+.nav li ul {
+  display: none;
+}
+.nav > li:hover > ul {
+  display: block;
+}
+
+/*PRIMIR NIVEL*/
+.nav > ul {
+  background;
+  display: table;
+  width: 300px;
+  text-align: center;
+}
+.nav > ul > li {
+  float: left;
+}
+.nav ul {
+  display: none;
+}
+.nav:hover ul  {
+  display: block;
+}
+/*SEGUNDO NIVEL*/
+.nav li li{
+  background;
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: all .6s;
+  width: 200px;
+  text-align: center;
+}
+.nav li:hover > ul > li {
+  max-height: 100%;
+  overflow: visible;
+}
+/*TERCERO NIVEL*/
+.nav ul ul {
+  left: 5%;
+  top: 8%;
+}
